@@ -1,0 +1,155 @@
+/* BREAK POINT */
+
+/* PC */
+@media (min-width: 64em) {
+    .btn {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+
+   
+    #content .member-img {
+        width: 150px; /* Kích thước hình ảnh cho PC */
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 63.9375em) {
+    .btn {
+        padding: 15px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 13px 12px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-submit-btn {
+        font-size: 18px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    #footer .social-list {
+        font-size: 40px;
+    }
+
+    #footer .social-list a {
+        margin: 0 8px;
+    }
+
+    #footer .coppyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .btn {
+        padding: 14px 18px;
+    }
+
+    .contact-form .form-control {
+        font-size: 16px; /* Kích thước phông chữ lớn hơn trên tablet */
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .contact-form {
+        margin-top: 32px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .members-list {
+        display: block; /* Đặt lại kiểu hiển thị cho thành viên */
+    }
+
+    .col {
+        width: 150%; /* Đặt chiều rộng của mỗi cột là 100% */
+        margin-bottom: 16px; /* Khoảng cách giữa các thành viên */
+    }
+
+    .member-img {
+        width: 150px; /* Đặt kích thước hình ảnh thành viên */
+        height: 150px; /* Đặt chiều cao hình ảnh */
+        object-fit: cover; /* Cắt ảnh nếu cần */
+        display: block; /* Đảm bảo hình ảnh được hiển thị dưới dạng block */
+        margin: 0 auto; /* Canh giữa hình ảnh */
+    }
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    .tickets-list {
+        display: block; /* Đặt lại kiểu hiển thị cho danh sách vé */
+    }
+
+    .ticket {
+        width: 100%; /* Đặt chiều rộng của mỗi vé là 100% */
+        margin-bottom: 16px; /* Khoảng cách giữa các vé */
+        padding: 10px; /* Padding cho mỗi vé */
+        border: 1px solid #ccc; /* Viền cho vé */
+        border-radius: 8px; /* Bo góc cho vé */
+        background-color: #f9f9f9; /* Màu nền cho vé */
+    }
+}
